@@ -11,6 +11,7 @@ class Server
 		InputStream is=s.getInputStream();
 		DataInputStream dis=new DataInputStream(is);
 		int num=Integer.parseInt(dis.readUTF());
+		System.out.println("akdfjksd");
 		
 		int fact=1;
 		for(int i=num;i>1;i--)
